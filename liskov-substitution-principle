@@ -1,0 +1,13 @@
+# Solid
+
+class BrandCBoiler extends Boiler {
+   function setDesirableTemperature($temp) {
+       /*устанавливаем желаемую температуру воды сразу в бойлере BrandC*/
+   }
+   function getDesirableTemperature() {
+       /*получаем желаемую температуру воды напрямую из бойлера BrandC*/
+   }
+   function initializeDevice() { /*use API BrandC*/ }
+   function getWaterTemperature() { /*use API BrandC*/ }
+   function heatWater() { /*empty*/ }
+}
